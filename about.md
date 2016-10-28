@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am a statistician  at university of Leicester, UK. I am interested in supervised and unsupervised statistical techniques such as **classification, clustering and variable reduction using PCA or factors analysis**. At the moment I am developing variable selection method for model-based clustering, you can find the `R codes` in my github repository [here](https://github.com/MichaelGhebre/ClusteringVariableSelectionUsingR). In addition, I have a plan to implement boosting and neural network to predict class membership from gene expression data (in which the number of observations are normally less than 200, but variables are more than 500000). Please keep checking this website and I will put some examples to show how to implement these techniques using `R`, and may be in future using `python`.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[michael_gh07@yahoo.co.uk](mailto:michael_gh07@yahoo.co.uk)
