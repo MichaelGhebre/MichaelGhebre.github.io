@@ -1,10 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Variable Selection in Model-based Clustering!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+We propose a new method to select variables for model-based clustering (Gausssian mixure model optimazed using the EM-algrorithm). The oprimal clusters were identified using BIC (Baysian information criterio) in which the smaller is the better. Here, I will show if selecting a clustering relevant variables will improve identifying the optimal clusters using real and simulated datasets.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+## R code 
