@@ -12,6 +12,12 @@ I am a statistician  at university of Leicester, UK. I am interested in supervis
  return(x)
 }`
 
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+
 ### Contact me
 
 [michael_gh07@yahoo.co.uk](mailto:michael_gh07@yahoo.co.uk)
