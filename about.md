@@ -12,7 +12,7 @@ I am a statistician  at university of Leicester, UK. I am interested in supervis
  return(x)
 }`
 
-```python
+```r
 s = "Python syntax highlighting"
 print s
 ```
