@@ -2,7 +2,7 @@ We wrote R function to implement the model-based clustering from scratch. The EM
 
 ```r
 sigma <- function(x, y){
-z <- 2*x +3*y _xy
+z <- 2*x + 3*y + x*y
 return(z)
 }
 ```
