@@ -7,7 +7,7 @@ We proposed a new method to select variables for model-based clustering (Gaussia
 
 ## R code
 
-'x <- function(y){
+`x <- function(y){
  
  z <- 3+5y
 
