@@ -1,18 +1,84 @@
 ---
 layout: default
 ---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Michael A Ghebre, PhD by MichaelGhebre</title>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Michael A Ghebre, PhD</h2>
+        <p>Welcome</p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <p class="view"><a href="https://github.com/MichaelGhebre">View My GitHub Profile</a></p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+      </header>
+      <section>
+        <h1>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h1>
+
+<p>I am a statistician at university of Leicester, UK. I am interested in supervised and unsupervised statistical/machine learning techniques such as classification, clustering and variable reduction using PCA or factors analysis. At the moment I am developing a variable selection method for model-based clustering, you can find the R codes in my github repository <a href="https://github.com/MichaelGhebre/ClusteringVariableSelectionUsingR">here</a>. In addition, I have a plan to implement boosting and neural network to predict class membership in high dimensional data such as gene expression (in which the number of observations are normally less than 200, but variables are more than 500,000). Please keep checking this website and I will put some examples to show how to implement these techniques using <code>R</code>, and may be in future using <code>python</code>.</p>
+      </section>
+      
+      <section>
+        <h1>
+        <a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Variable selection in clustering</h1>
+        
+ 
+    <p>We proposed a new method to select variables for model-based clustering (Gaussian mixture model optimized using the EM-algorithm). 
+      The optimal numbers of clusters are identified using BIC (Bayesian information criterion), in which the smaller is the better. 
+      Here, I will show if selecting clustering relevant variables will improve the identification of the optimal number of clusters 
+      using real and simulated datasets in R. First, I will brief the theory of model-based clustering and show how the results are affected due to initialisation of the EM-algorithm</p>
+        </section>
+   
+      <section>
+        <h1>
+        <a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Model-based clustering</h1>
+        <h2>Gaussian mixture model </h2>
+        <p> A Gaussian mixture model is a model-based clustering technique in which each component probability distribution (mixture component) is corresponding to a cluster. It assumes that the observed data come from heterogeneous (two or more) populations instead of from a single (homogeneous) population,it works by modeling each of the sub-populations separately and the overall population as a mixture of these sub-populations. The optimal mixture components (clusters) and cluster memberships are estimated using maximum likelihood, which is optimized using EM algorithm.   </p>
+      </section>
+     
+      
+      <section>
+        <h1>
+        <a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gausian mixture in R</h1>
+        <h2>R code for mixture model </h2>
+        
+        <head>
+
+      <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+      </head>
+     
+      <p>Here are my formulas</p>
+        
+      <div lang="latex">1+sin(x)^2+3</div>
+
+      <div lang="latex">x^2+y^2+z^2</div>
+   
+      </section>
+    
+      
+      <footer>
+        <p><small> Michael A Ghebre, PhD </small></p>
+      </footer>
+    </div>
+  
+    <script src="javascripts/scale.fix.js"></script>
+
+  
+  </body>
+  
+
+</html>
