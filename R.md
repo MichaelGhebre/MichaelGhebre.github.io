@@ -290,7 +290,7 @@ gmmEM <- function(x, c = 1:10, initialize = c("kmeans", "kmedoids", "fuzzykmeans
 
 ```
 
-#Singularity Issues in Model-based Clustering 
+**Singularity Issues in Model-based Clustering** 
 
 If the variance-covariance is not positive definite, a small value is added to the diagonal of the matrix till it is positive definite using the following R function. 
 
